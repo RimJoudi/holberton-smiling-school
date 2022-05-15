@@ -1,0 +1,262 @@
+/*header*/
+.home_body{
+	margin: 0;
+	padding: 20px 100px;
+	background-color: rgb(0, 0, 0);
+	background-image: url(images/pic_1.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.header_text{
+	padding-top: 100px;
+	text-align: center;
+	font-size: 72px;
+
+    
+}
+.header_l{
+	justify-content: center;
+}
+button:hover,
+button:active{
+	opacity: 0.9;
+}
+.header_b{
+	margin-top: 20px;
+	border-radius: 20px;
+	background-color:  #C271FF;
+	position: absolute;
+  	left: 50%;
+  	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.span_p{
+	color: #C271FF;
+}
+.header_p{
+	margin-top: 100px;
+	text-align: center;
+}
+.header_img{
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.hp{
+	font-size: 12px;
+	color: white;
+	margin: 1rem;
+	padding-bottom: 0.4rem;
+	font-weight: bold;
+	
+}
+.hp:hover,
+.hp:active{
+	color: #C271FF;
+	font-weight: bolder;
+	text-decoration: none;
+	border-bottom: 3px solid white;
+}
+
+/*caroosel*/
+.carousel{
+	margin: 0;
+	padding: 100px 250px;
+	height: 300px;
+	background-color: #C271FF;
+}
+
+.tut{
+	padding: 50px;
+	margin-bottom: 50px;
+}
+.card{
+	width: 12rem;
+}
+.video{
+	position: absolute;
+
+}
+.video-1{
+	z-index: 1;
+}
+.video-2{
+	z-index: 3;
+	width: 50px;
+	top: 2rem;
+	left: 4rem;
+}
+.card-body{
+	padding-top: 140px;
+	padding-bottom: 0;
+}
+.tut-arrow{
+	padding: 100px 0 0 50px;
+
+}
+.tut-arrow:active,
+.tut-arrow:hover{
+	opacity: 0.5;
+}
+
+.mem{
+	padding: 50px;
+	background-color: #071629;
+}
+.mem-card{
+	background-color: transparent !important;
+}
+.mem-img{
+	margin-left: 70px;
+	padding-bottom: 15px;
+}
+.mem-btn{
+	margin-left: 45%;
+}
+
+/* footer */
+.footer{
+	background-color: #071629;
+	height: 150px;
+	padding: 5% 20%;
+}
+
+/* Pricing */
+.home_body_pricing{
+	margin: 0;
+	padding: 20px 100px;
+	background-color: rgb(0, 0, 0);
+	background-image: url(images/pic_22.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.header_text_pricing{
+	padding-top: 100px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bolder;
+	
+}
+.header_go_pro {
+	font-size: 60px;
+	text-align: center;
+	margin-top: 50px;
+	font-weight: bolder;
+
+}
+
+th,
+.table-bordering tr{
+	text-align: center;
+    vertical-align: middle;
+	border-bottom: 1px solid;
+	border-top: none;
+}
+.table-border {
+	border: none;
+	border-top: 0;
+}
+.faq{
+	padding: 100px 80px;
+	display: flex;
+	justify-content: center;
+	margin-left: 300px;
+}
+
+.space2{
+	margin-left: 50px;
+}
+.space4{
+	margin-left: 50px;
+}
+.space3, .space1 {
+	margin-right: 50px;
+}
+.light-text{
+	color: lightslategray;
+}
+
+/* courses */
+.home_body_cours{
+	margin: 0;
+	padding: 30px 100px;
+	background-color: rgb(0, 0, 0);
+	background-image: url(images/pic_3.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.header_text_cours{
+	font-family: Coiny;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: center;
+	margin-top: 50px;
+}
+.logo {
+	margin-top: 3rem;
+}
+/* cours */
+.fill{
+	background-color: #C271FF;
+	padding: 100px 60px;
+	display: flex;
+	justify-content: space-around;
+}
+input[type=text] {
+	color: white;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-image: url('images/search.svg');
+	background-size: 20px;
+	background-position: 10px 7px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 0px 40px;
+	background-color: #C271FF;
+	width: 100%;
+	height: 40px;
+}
+
+.fill-select{
+	color: white;
+	background: url('images/triangle-down.svg');
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: #C271FF;
+	width: 100%;
+	display: block;
+	height: 40px;
+	-webkit-appearance: none;
+}
+.fill-cour{
+	padding: 40px;
+}
+
+.fill-card{
+	padding-top: 30px;
+	width: 16rem;
+}
+.fill-video{
+	position: absolute;
+}
+.fill-video-1{
+	z-index: 1;
+	width: 250px;
+}
+.fill-video-2{
+	z-index: 3;
+	width: 50px;
+	top: 4rem;
+	left: 7rem;
+}
+.fill-card-body{
+	padding-top: 160px;
+	padding-bottom: 0;
+}
